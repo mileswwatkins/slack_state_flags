@@ -32,7 +32,7 @@ I've included the flag PNGs in this repository, so this step isn't necessary. Bu
 #### Running
 
 ```
-$ python get_flags.py
+$ ./get_flags.py
 Downloading flag for Alabama
 Downloading flag for Alaska
 Downloading flag for American Samoa

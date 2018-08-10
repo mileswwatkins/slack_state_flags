@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 import re
 import shutil
@@ -29,7 +31,7 @@ states = [s for s in us.STATES_AND_TERRITORIES if s not in us.OBSOLETE]
 for state in states:
     print("Downloading flag for {}".format(state.name))
 
-    filename = 'us-{}.png'.format(state.abbr.lower())
+    filename = 'flag-us-{}.png'.format(state.abbr.lower())
     png_url = None
     for name, url in flags.items():
         if state.name in name:
