@@ -1,7 +1,7 @@
 Slack State Flags
 ---
 
-Add state flags as custom emoji to your Slack.
+Add state flags as custom emoji to your Slack. [See illustrations and my write-up here.](https://blog.openstates.org/using-state-flags-as-slack-emoji-4d61f3e2cda8)
 
 ### Uploading to Slack
 
