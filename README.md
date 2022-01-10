@@ -5,7 +5,13 @@ Add state flags as custom emoji to your Slack. [See illustrations and my write-u
 
 ### Uploading to Slack
 
-Upload the PNGs to Slack, to create new emoji, using a simple tool such as https://github.com/smashwilson/slack-emojinator
+#### By point-and-click
+
+Use a browser extension [like this one](https://chrome.google.com/webstore/detail/neutral-face-emoji-tools/anchoacphlfbdomdlomnbbfhcmcdmjej), and simply drag and drop all the PNGs from `state-flags` into your Slack administrator webpage.
+
+#### By the command line
+
+Use a tool like [`slack-emojinator`](https://github.com/smashwilson/slack-emojinator) to upload the PNGs to Slack as custom emoji:
 
 ```bash
 git clone https://github.com/smashwilson/slack-emojinator.git
